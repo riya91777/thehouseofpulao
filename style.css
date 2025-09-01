@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f4ef;
+  color: #333;
+}
+
+header {
+  background: #5c3d2e;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('images/pulao.jpg') center/cover no-repeat;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.btn {
+  background: #d4a373;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.btn.secondary {
+  background: #6b705c;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background: #fff3e6;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #5c3d2e;
+  color: white;
+}
